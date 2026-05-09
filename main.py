@@ -2,7 +2,7 @@ from PIL import Image
 import pytesseract
 import os
 
-path_image = "/home/lhenaoll/Images/Screenshots/test.png"
+path_image = "/home/lhenaoll/Pictures/Screenshots/TexFromImage.png"
 data = os.system(f'grim -g "$(slurp -c \"#ff0000ff\")" {path_image}')
 
 # If user no take a screenshot, exit
